@@ -1,5 +1,5 @@
 Package: packingheat
-Title: This package packs heat
+Title: For packing heat
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Marc",
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "don't@me",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: This package packs heat.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to
     pick a license
 Encoding: UTF-8
