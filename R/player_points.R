@@ -9,6 +9,7 @@
 #' player_points(2015)
 #' whatever the points are
 player_points <- function(year, player="Michael Jordan*"){
-  filtered = dplyr::filter(nba, Year==year, Player==player)
-  return(filtered["PTS"])
+  # filtered = dplyr::filter(nba, Year==year, Player==player)
+  # return(filtered["PTS"])
+  print("Hello World")
 }
