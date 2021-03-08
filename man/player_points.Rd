@@ -12,7 +12,7 @@ player_points(year, player = "Michael Jordan*")
 \item{player}{default=Michael Jordan}
 }
 \description{
-This function returns the points scored by a given player (Michael Jordan by default) in a given year.
+Returns the points scored by a given player (Michael Jordan by default) in a given year.
 }
 \examples{
 player_points(2015)

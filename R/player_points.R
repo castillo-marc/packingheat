@@ -1,6 +1,6 @@
 #' Player points
 #'
-#' This function returns the points scored by a given player (Michael Jordan by default) in a given year.
+#' Returns the points scored by a given player (Michael Jordan by default) in a given year.
 #' @param year Year of interest
 #' @param player default=Michael Jordan
 #' @keywords points
