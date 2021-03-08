@@ -20,7 +20,6 @@ player_points(2015)
 "Michael Jordan* not active during 2015"
 
 player_points(1996)
-           Player  PTS
-1 Michael Jordan* 2491
+2491
 }
 \keyword{points}
