@@ -13,6 +13,7 @@ player_points(year, player = "Michael Jordan*")
 }
 \description{
 Returns the points scored by a given player (Michael Jordan by default) in a given year.
+Prints a message if player wasn't active during given year.
 }
 \examples{
 player_points(2015)

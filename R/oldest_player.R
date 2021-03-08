@@ -6,6 +6,7 @@
 #' @importFrom dplyr filter
 #' @importFrom dplyr arrange
 #' @importFrom dplyr select
+#' @importFrom magrittr %>%
 #' @export
 #' @examples
 #' oldest_player(2015)
