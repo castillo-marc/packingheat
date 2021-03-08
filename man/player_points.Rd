@@ -17,6 +17,10 @@ Prints a message if player wasn't active during given year.
 }
 \examples{
 player_points(2015)
-whatever the points are
+"Michael Jordan* not active during 2015"
+
+player_points(1996)
+           Player  PTS
+1 Michael Jordan* 2491
 }
 \keyword{points}

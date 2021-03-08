@@ -8,12 +8,15 @@
 #' @export
 #' @examples
 #' player_points(2015)
-#' whatever the points are
+#' "Michael Jordan* not active during 2015"
+#'
+#' player_points(1996)
+#' 2491
 player_points <- function(year, player="Michael Jordan*"){
   filtered = dplyr::filter(nba, Year==year, Player==player)
   if (dim(filtered)[1]== 0) {
     print(paste(player, "not active during", year))
   } else {
-    return(filtered["PTS"])
+    return(filtered$PTS)
   }
 }
