@@ -10,5 +10,5 @@
 #' # should return a plot
 numeric_matr <- function(year){
   filtered = dplyr::filter(nba, Year==year) %>% purrr::keep(is.numeric)
-  return(corrplot::corrplot(cor(filtered)))
+  return(corrplot::corrplot(cor(filtered), tl.cex=.5, type="upper"))
 }
