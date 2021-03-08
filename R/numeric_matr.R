@@ -7,6 +7,7 @@
 #' @export
 #' @examples
 #' numeric_matr(2015)
+#' # should return a plot
 numeric_matr <- function(year){
   filtered = dplyr::filter(nba, Year==year) %>% purrr::keep(is.numeric)
   return(corrplot::corrplot(cor(filtered)))

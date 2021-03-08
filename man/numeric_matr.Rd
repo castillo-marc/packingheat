@@ -10,10 +10,11 @@ numeric_matr(year)
 \item{year}{Year of interest}
 }
 \description{
-Returns correlation matrix of numeric variables NBA set after filtering to given year.
+Returns correlation matrix visualization of numeric variables NBA set after filtering to given year.
 }
 \examples{
 numeric_matr(2015)
+# should return a plot
 }
 \keyword{correlation}
 \keyword{matrix}
